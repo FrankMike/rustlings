@@ -5,10 +5,12 @@
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
+
+use std::vec;
 
 fn main() {
-    let a = ???
+    let len = 1050;
+    let a = vec![0; len];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
